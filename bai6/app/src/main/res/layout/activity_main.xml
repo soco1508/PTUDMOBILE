@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dong.bai52.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="left|center"
+        android:text="Visiting Cleveland Landmarks"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/lvItem"
+        android:layout_width="match_parent"
+        android:layout_height="464dp" />
+</LinearLayout>
